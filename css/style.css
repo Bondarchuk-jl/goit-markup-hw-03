@@ -1,0 +1,255 @@
+:root {
+    --violet-color: #4D5AE5;
+    --maintext-color: #2E2F42;
+    --gray-color: #434455;
+   --btn-navigation:#404BBF;
+}
+body{
+    color:#FFFFFF ;
+    font-family: 'Roboto', sans-serif;     
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 16px;
+    background-color: #FFFFFF;
+
+}
+
+.header {
+}
+/*скинути крапки у списках ліст*/
+.list {
+    list-style: none;
+}
+/*скинути підкреслення на ссілках*.*/
+.link {
+    text-decoration: none;
+}
+
+.navigation {
+ }
+
+.logo-first, .logo-second {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.33;
+        color:var(--violet-color);
+}
+
+.logo-second {
+    color:var(--maintext-color);      
+}
+
+.navigation-list {  
+}
+
+.navigation-item {
+}
+.navigation-link {
+    font-weight: 500;
+        color:var(--maintext-color);
+}
+.navigation-link:hover,
+.navigation-link:focus {
+    color: var(--btn-navigation);
+}
+.contacts{    
+}
+
+.navigation-contacts{
+}
+ .contact-adress {
+    font-style: normal;
+        font-weight: 400;
+        color: var(--gray-color);   
+}
+
+.contact-adress:hover,
+.contact-adress:focus {
+    color: var(--btn-navigation);
+}
+/* фокус для таба на интерактинвные элементы)*/
+
+/* Main */
+
+/* Section hero*/
+.hero {}
+
+.hero-main{ 
+    background: #2E2F42;
+}
+
+.hero-text {
+font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero-buttom {
+    font-family: inherit;
+    font-weight: 500;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        cursor: pointer;
+}
+
+.hero-buttom:hover,
+.hero-buttom:focus {
+    color: #FFFFFF;
+}
+
+/* Section tefnology*/
+
+.tehnology {}
+
+.tehhology-maintext {}
+
+.tehnology-text, .about-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--maintext-color);
+}
+
+.tehnology-paragraph {
+    font-weight: 400;
+    color: var(--gray-color);
+}
+
+.tehnology-list {}
+
+.tehnology-item {
+}
+
+/* section work*/
+
+.work {}
+
+.work-maintext, .about-maintext {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--maintext-color);
+}
+
+.work-list {}
+
+.work-item {}
+
+.work-link {}
+
+/*section our team - about*/
+
+.about {
+    background: #F4F4FD;
+    
+}
+
+.about-maintext {
+}
+
+.about-list {}
+
+.about-item {}
+
+.about-text {
+}
+
+.about-paragraph, .footer-paragraph {
+    font-weight: 400;
+        text-align: center;
+        color: var(--gray-color);
+}
+
+
+/* Footer */
+
+.footer {
+    background: #2E2F42;
+}
+
+.logo-footer-first, .logo-footer-second {
+    font-family: 'Raleway';
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.33;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color:--violet-color;
+}
+
+.logo-footer-second {
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: #F4F4FD;
+}
+
+.footer-paragraph {
+        color: #E7E9FC;
+}
+
+
+/*--Page portoflio--*/
+/*  Section portfolio navigation*/
+
+.portfolio-hero {}
+
+.portfolio-navigation {}
+
+.portfolio-navigation-list {}
+
+.portfolio-navigation-item {}
+
+.portfolio-buttom {
+    font-weight: 500;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: --violet-color;
+        cursor: pointer;
+}
+
+.portfolio-buttom:hover,
+.portfolio-buttom:focus
+ {
+   color: --violet-color; 
+}
+.portfolio-buttom:active {
+    color: var(--gray-color);
+}
+
+
+/* Section portfolio aalication*/
+
+.application {}
+
+.app-list {}
+
+.app-item {}
+
+.app-link {}
+
+.app-maintext {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        color: var(--maintext-color);
+}
+
+.app-paragraph {
+    font-weight: 400;
+        color: var(--gray-color);
+}
