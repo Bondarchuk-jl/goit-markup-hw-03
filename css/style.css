@@ -129,9 +129,15 @@ font-weight: 700;
 
 /* Section tefnology*/
 
-.tehnology {}
+.tehnology {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
-.tehhology-maintext {}
+
+.tehhology-maintext {
+    color: hidden;
+}
 
 .tehnology-text, .about-text {
     font-weight: 500;
@@ -152,7 +158,11 @@ font-weight: 700;
 
 /* section work*/
 
-.work {}
+.work {
+    padding-top: 120px;
+    margin-bottom: 120px;
+    color: tomato;
+}
 
 .work-maintext, .about-maintext {
     font-weight: 700;
@@ -162,11 +172,14 @@ font-weight: 700;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--maintext-color);
+    margin-bottom: 72px;
 }
 
 .work-list {}
 
-.work-item {}
+.work-item {
+    margin-bottom: 120px;
+}
 
 .work-link {}
 
@@ -178,19 +191,26 @@ font-weight: 700;
 }
 
 .about-maintext {
+    padding-top: 120px;
+    margin-bottom: 72px;
 }
 
 .about-list {}
 
-.about-item {}
+.about-item {
+    margin-bottom: 32px;
+}
 
 .about-text {
+    padding-top: 32px;
+    margin-bottom: 8px;
 }
 
 .about-paragraph, .footer-paragraph {
     font-weight: 400;
         text-align: center;
         color: var(--gray-color);
+        margin-bottom: 32px;
 }
 
 
@@ -198,28 +218,42 @@ font-weight: 700;
 
 .footer {
     background: #2E2F42;
+    padding-top: 100px; 
+    padding-bottom: 100px;
+    padding-right: 1020px;
+    padding-left: 156px;
 }
 
 .logo-footer-first, .logo-footer-second {
     font-family: 'Raleway';
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.33;
+        line-height: 1.17;
         display: flex;
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color:--violet-color;
+        color:var(--violet-color);
+       
+        
+      
+     
 }
 
 .logo-footer-second {
-        line-height: 1.17;
-        letter-spacing: 0.03em;
         color: #F4F4FD;
+       
+       /* padding-top: 100px;
+        margin-bottom: 16px;*/
+   
 }
 
 .footer-paragraph {
         color: #E7E9FC;
+       /* padding-top: 16px;
+        padding-right: 1020px;
+        padding-bottom: 100px;
+        padding-left: 156px;*/
 }
 
 
@@ -228,11 +262,19 @@ font-weight: 700;
 
 .portfolio-hero {}
 
-.portfolio-navigation {}
+.portfolio-navigation {
+    padding-top: 96px;
+    margin-bottom: 72px;
+}
 
-.portfolio-navigation-list {}
+.portfolio-navigation-list {
+    margin-bottom: 72px;
+}
 
-.portfolio-navigation-item {}
+.portfolio-navigation-item {
+    
+
+}
 
 .portfolio-buttom {
     font-weight: 500;
@@ -263,18 +305,26 @@ font-weight: 700;
 
 .app-item {}
 
-.app-link {}
+.app-link {
+    
+}
 
 .app-maintext {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         color: var(--maintext-color);
+        margin-bottom: 32px;
+        padding-top: 32px;
+        padding-right: 54px;
+        padding-left: 16px ;
+       
 }
 
 .app-paragraph {
     font-weight: 400;
         color: var(--gray-color);
+        margin-bottom: 32px;
 }
 /**flexbox**/
 
