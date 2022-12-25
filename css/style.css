@@ -14,7 +14,22 @@ body{
 
 }
 
+/*якщо є нормалайз 
+* {
+    box-sizing: border-box;
+}
+зірочку не пишемо*/
+p, h1,h2, h3, h4 {
+    margin:0;
+}
+
+ul {
+    margin: 0;
+    padding-left: o;
+}
 .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 /*скинути крапки у списках ліст*/
 .list {
@@ -78,6 +93,10 @@ body{
 
 .hero-main{ 
     background: #2E2F42;
+    padding-top: 188px;
+    padding-right: 473px ;
+    padding-bottom: 292px;
+    padding-left: 473px ;
 }
 
 .hero-text {
@@ -97,6 +116,10 @@ font-weight: 700;
         letter-spacing: 0.04em;
         color: #FFFFFF;
         cursor: pointer;
+       /* padding-top: 356px;
+        padding-right: 635px;
+        padding-bottom: 188px;
+        padding-left:636px ;*/
 }
 
 .hero-buttom:hover,
@@ -253,3 +276,15 @@ font-weight: 700;
     font-weight: 400;
         color: var(--gray-color);
 }
+/**flexbox**/
+
+ .container {
+    width: 1128px;
+    height: ;
+    padding-left: 156px;
+    padding-right: 156px;
+    outline: 1px solid;
+    margin: 0 auto;
+ }
+
+ .container

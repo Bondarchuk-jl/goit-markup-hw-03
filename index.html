@@ -11,31 +11,40 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!--хедер-->
     <header class="header">
-      <nav class="navigation">
-        <!--Navigation-->
-        <a href="./index.html" class="logo-first link">
-          WEB <span class="logo-second">STUDIO</span>
-        </a>
+      <div class="container">
+        <nav class="navigation">
+          <!--Navigation-->
+          <a href="./index.html" class="logo-first link">
+            WEB <span class="logo-second">STUDIO</span>
+          </a>
 
-        <ul class="navigation-list list">
-          <li class="navigation-item">
-            <a href="./index.html" class="navigation-link link">Studio</a>
-          </li>
-          <li class="navigation-item">
-            <a href="./portfolio.html" class="navigation-link link"
-              >Portfolio</a
-            >
-          </li>
-          <li class="navigation-item">
-            <a href="" class="navigation-link link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
+          <ul class="navigation-list list">
+            <li class="navigation-item">
+              <a href="./index.html" class="navigation-link link">Studio</a>
+            </li>
+            <li class="navigation-item">
+              <a href="./portfolio.html" class="navigation-link link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="navigation-item">
+              <a href="" class="navigation-link link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <ul class="contacts list">
         <li class="navigation-contacts">
           <a href="mailto:info@devstudio.com" class="contact-adress link"
@@ -63,88 +72,101 @@
 
       <!--Типи технологій-->
       <section class="tehnology">
-        <!--<h2 class="tehhology-maintext">Tipe of technologi</h2>
-        hidden h2-->
-        <ul class="tehnology-list list">
-          <li class="tehnology-item">
-            <h3 class="tehnology-text">Strategy</h3>
-            <p class="tehnology-paragraph">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li class="tehnology-item">
-            <h3 class="tehnology-text">Technologies</h3>
-            <p class="tehnology-paragraph">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <!--<h2 class="tehhology-maintext">Tipe of technologi</h2>
+          hidden h2-->
+          <ul class="tehnology-list list">
+            <li class="tehnology-item">
+              <h3 class="tehnology-text">Strategy</h3>
+              <p class="tehnology-paragraph">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="tehnology-item">
+              <h3 class="tehnology-text">Technologies</h3>
+              <p class="tehnology-paragraph">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!--What are we doing-->
       <!--All class begin "work"-->
       <!--Заголовки h2 це мейнтекст , -->
       <section class="work">
-        <h2 class="work-maintext">What are we doing</h2>
-        <ul class="work-list list">
-          <li class="work-item">
-            <!--Якщо файл свг, то не ставимо ширину-->
-            <a href="" class="work-link">
-              <img src="./images/computer.jpg" alt="computer" width="360" />
-            </a>
-          </li>
-          <li class="work-item">
-            <a href="" class="work-link">
-              <img src="./images/messendger.jpg" alt="messenger" width="360" />
-            </a>
-          </li>
-          <li class="work-item">
-            <a href="" class="work-link">
-              <img src="./images/mobile.jpg" alt="mobile" width="360" />
-            </a>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="work-maintext">What are we doing</h2>
+          <ul class="work-list list">
+            <li class="work-item">
+              <!--Якщо файл свг, то не ставимо ширину-->
+              <a href="" class="work-link">
+                <img src="./images/computer.jpg" alt="computer" width="360" />
+              </a>
+            </li>
+            <li class="work-item">
+              <a href="" class="work-link">
+                <img
+                  src="./images/messendger.jpg"
+                  alt="messenger"
+                  width="360"
+                />
+              </a>
+            </li>
+            <li class="work-item">
+              <a href="" class="work-link">
+                <img src="./images/mobile.jpg" alt="mobile" width="360" />
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!--Our team-->
       <!--All class begin "about"-->
       <section class="about">
-        <h2 class="about-maintext">Our Team</h2>
+        <div class="container">
+          <h2 class="about-maintext">Our Team</h2>
+          <ul class="about-list list">
+            <li class="about-item">
+              <img
+                src="./images/prodactmeneger.jpg"
+                alt="Product Designer"
+                width="264"
+              />
 
-        <ul class="about-list list">
-          <li class="about-item">
-            <img
-              src="./images/prodactmeneger.jpg"
-              alt="Product Designer"
-              width="264"
-            />
+              <h3 class="about-text">Mark Guerrero</h3>
+              <p class="about-paragraph">Product Desinger</p>
+            </li>
+            <li class="about-item">
+              <img
+                src="./images/developer.jpg"
+                alt="Frontend Developer"
+                width="264"
+              />
+              <h3 class="about-text">Tom Ford</h3>
+              <p class="about-paragraph">Frontend Developer</p>
+            </li>
+            <li class="about-item">
+              <img src="./images/marketing.jpg" alt="Marketing" width="264" />
 
-            <h3 class="about-text">Mark Guerrero</h3>
-            <p class="about-paragraph">Product Desinger</p>
-          </li>
-          <li class="about-item">
-            <img
-              src="./images/developer.jpg"
-              alt="Frontend Developer"
-              width="264"
-            />
-            <h3 class="about-text">Tom Ford</h3>
-            <p class="about-paragraph">Frontend Developer</p>
-          </li>
-          <li class="about-item">
-            <img src="./images/marketing.jpg" alt="Marketing" width="264" />
-
-            <h3 class="about-text">Camila Garsia</h3>
-            <p class="about-paragraph">Marketing</p>
-          </li>
-          <li class="about-item">
-            <img src="./images/uidesinger.jpg" alt="UI Designer" width="264" />
-            <h3 class="about-text">Daniel Wilson</h3>
-            <p class="about-paragraph">UI Desinger</p>
-          </li>
-        </ul>
+              <h3 class="about-text">Camila Garsia</h3>
+              <p class="about-paragraph">Marketing</p>
+            </li>
+            <li class="about-item">
+              <img
+                src="./images/uidesinger.jpg"
+                alt="UI Designer"
+                width="264"
+              />
+              <h3 class="about-text">Daniel Wilson</h3>
+              <p class="about-paragraph">UI Desinger</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
