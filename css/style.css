@@ -19,7 +19,7 @@ body{
     box-sizing: border-box;
 }
 зірочку не пишемо*/
-p, h1,h2, h3, h4 {
+p, h1, h2, h3, h4 {
     margin:0;
 }
 
@@ -93,10 +93,11 @@ ul {
 
 .hero-main{ 
     background: #2E2F42;
-    padding-top: 188px;
-    padding-right: 473px ;
+    text-align: center;
+    /*padding-top: 188px;
+    padding-right: 473px;
     padding-bottom: 292px;
-    padding-left: 473px ;
+    padding-left: 473px;*/
 }
 
 .hero-text {
@@ -105,6 +106,12 @@ font-weight: 700;
     line-height: 1.07;
     text-align: center;
     color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 48px;
+    padding-top:188px  ;
+    padding-right: ;
+    padding-left: ;
+
 }
 
 .hero-buttom {
@@ -112,14 +119,22 @@ font-weight: 700;
     font-weight: 500;
         font-size: 16px;
         display: flex;
-        align-items: center;
-        letter-spacing: 0.04em;
+        display: inline-block;
+        width: 169px;
+        height: 56px;
+        Padding: 16px, 32px, 16px, 32px;
+       align-items: center;
+       letter-spacing: 0.04em;
+        background: #4D5AE5;
         color: #FFFFFF;
+        border-radius: 4px;
         cursor: pointer;
        /* padding-top: 356px;
         padding-right: 635px;
         padding-bottom: 188px;
         padding-left:636px ;*/
+    
+        margin-bottom: 188px;
 }
 
 .hero-buttom:hover,
@@ -144,6 +159,7 @@ font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
     color: var(--maintext-color);
+    margin-bottom: 8px;
 }
 
 .tehnology-paragraph {
@@ -202,13 +218,13 @@ font-weight: 700;
 }
 
 .about-text {
-    padding-top: 32px;
+    margin-top: 32px;
     margin-bottom: 8px;
 }
 
 .about-paragraph, .footer-paragraph {
     font-weight: 400;
-        text-align: center;
+   
         color: var(--gray-color);
         margin-bottom: 32px;
 }
@@ -221,7 +237,7 @@ font-weight: 700;
     padding-top: 100px; 
     padding-bottom: 100px;
     padding-right: 1020px;
-    padding-left: 156px;
+    /*padding-left: 156px;*/
 }
 
 .logo-footer-first, .logo-footer-second {
@@ -230,14 +246,11 @@ font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
         display: flex;
-        align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color:var(--violet-color);
+       margin-bottom: 24px;
        
-        
-      
-     
 }
 
 .logo-footer-second {
@@ -285,6 +298,7 @@ font-weight: 700;
         letter-spacing: 0.04em;
         color: --violet-color;
         cursor: pointer;
+        outline: 2px tomato;
 }
 
 .portfolio-buttom:hover,
@@ -317,7 +331,7 @@ font-weight: 700;
         margin-bottom: 32px;
         padding-top: 32px;
         padding-right: 54px;
-        padding-left: 16px ;
+        padding-left: ;
        
 }
 
@@ -329,12 +343,14 @@ font-weight: 700;
 /**flexbox**/
 
  .container {
-    width: 1128px;
+   /* 
     height: ;
+    
+    outline: 2px rgb(141, 20, 227);*/
+    margin-left: auto;
+    width: 1128px;
+    margin-right: auto;
     padding-left: 156px;
     padding-right: 156px;
-    outline: 1px solid;
     margin: 0 auto;
  }
-
- .container
