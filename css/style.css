@@ -33,6 +33,8 @@ ul {
 }
 /*скинути крапки у списках ліст*/
 .list {
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 /*скинути підкреслення на ссілках*.*/
@@ -41,6 +43,7 @@ ul {
 }
 
 .navigation {
+    
  }
 
 .logo-first, .logo-second {
@@ -56,10 +59,20 @@ ul {
     color:var(--maintext-color);      
 }
 
-.navigation-list {  
+.navigation-list { 
+     display: flex ;
+
 }
+/*.navigation-list li {
+    
+}*/
 
 .navigation-item {
+    margin-right: 40px;
+    border: 2px solid tomato;
+}
+.navigation-item:last-child {
+    margin-right: 0;
 }
 .navigation-link {
     font-weight: 500;
@@ -70,6 +83,7 @@ ul {
     color: var(--btn-navigation);
 }
 .contacts{    
+    display: flex;
 }
 
 .navigation-contacts{
