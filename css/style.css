@@ -35,6 +35,7 @@ ul {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 /*скинути підкреслення на ссілках*.*/
@@ -98,9 +99,6 @@ ul {
 }
 .contacts {    
     display: flex;
-    
-    
-    
 }
 
 .navigation-contacts{
@@ -114,23 +112,18 @@ ul {
  .contact-adress {
     font-style: normal;
     font-weight: 400;
-    
     color: var(--gray-color);   
 }
 .contacts-adress:last-child {
     margin-right: 0;
 }
 
-
-
 .contact-adress:hover,
 .contact-adress:focus {
     color: var(--btn-navigation);
 }
 /* фокус для таба на интерактинвные элементы)*/
-
 /* Main */
-
 /* Section hero*/
 .hero {}
 
@@ -162,29 +155,27 @@ font-weight: 700;
 .hero-buttom {
     font-family: inherit;
     font-weight: 500;
-        font-size: 16px;
-        display: flex;
-        display: inline-block;
-        width: 169px;
-        height: 56px;
-        Padding: 16px, 32px, 16px, 32px;
-       align-items: center;
-       letter-spacing: 0.04em;
-        background: #4D5AE5;
-        color: #FFFFFF;
-        border-radius: 4px;
-        cursor: pointer;
-       /* padding-top: 356px;
-        padding-right: 635px;
-        padding-bottom: 188px;
-        padding-left:636px ;*/
+    color: #FFFFFF;
+    letter-spacing: 0.04em;
+    display: flex;
+    display: inline-block;
+    width: 169px;
+    height: 56px;
+    margin-bottom: 188px;
+    Padding: 16px, 32px, 16px, 32px;
+    align-items: center;
     
-        margin-bottom: 188px;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    border-color: #4D5AE5;
+    cursor: pointer;
+        
+      
 }
 
 .hero-buttom:hover,
 .hero-buttom:focus {
-    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 /* Section tefnology*/
@@ -193,7 +184,6 @@ font-weight: 700;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
 
 .tehhology-maintext {
     color: hidden;
@@ -217,12 +207,10 @@ font-weight: 700;
 
 .tehnology-list {
     display: flex;
-    
 }
 
 .tehnology-item {
-    margin-right: 24px;
-    
+    margin-right: 24px; 
 }
 
 /* section work*/
@@ -259,7 +247,6 @@ font-weight: 700;
 
 .about {
     background: #F4F4FD;
-    
 }
 
 .about-maintext {
@@ -283,55 +270,38 @@ font-weight: 700;
 
 .about-paragraph, .footer-paragraph {
     font-weight: 400;
-   
-        color: var(--gray-color);
-        margin-bottom: 32px;
+    color: var(--gray-color);
+    margin-bottom: 32px;
 }
-
 
 /* Footer */
 
 .footer {
     background: #2E2F42;
     padding-top: 100px; 
-    
     padding-bottom: 100px;
-    /*padding-right: 1020px;
-    display: flex;
-    /*padding-left: 156px;*/
 }
 
 .logo-footer-first, .logo-footer-second {
     font-family: 'Raleway';
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color:var(--violet-color);
-       margin-bottom: 16px;
-       
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--violet-color);   
 }
 
 .logo-footer-second {
-        color: #F4F4FD;
-       
-       /* padding-top: 100px;
-        margin-bottom: 16px;*/
-   
+    color: #F4F4FD;
 }
 
 .footer-paragraph {
-        color: #E7E9FC;
-        width: 264px;
-            height: 110px;
-       /* padding-top: 16px;
-        padding-right: 1020px;
-        padding-bottom: 100px;
-        padding-left: 156px;*/
+    color: #E7E9FC;
+    width: 264px;
+    height: 110px;
+    margin-top: 16px;
 }
-
 
 /*--Page portoflio--*/
 /*  Section portfolio navigation*/
@@ -346,30 +316,39 @@ font-weight: 700;
 .portfolio-navigation-list {
     display: flex;
     margin-bottom: 72px;
+    margin-top: 92px;
     align-items: center;
-        text-align: center;
-        
+    text-align: center;  
+    justify-content: center;  
+    
+ 
+}
+.portfolio-navigation-item:last-child {
+    margin-right: 0;
 }
 
 .portfolio-navigation-item {
     margin-right: 24px ;
-
+   
 }
 
 .portfolio-buttom {
+    display: flex;
     font-weight: 500;
-        font-size: 16px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.04em;
-        color: var(--violet-color);
-        cursor: pointer;
-        padding: 12px 24px 12px 24px;
-        width: 126px;
-        height: 48px;
-        border-radius: 4px;
-        background-color: #E7E9FC;
+    background-color: #E7E9FC;
+    align-items: center; 
+    letter-spacing: 0.04em;
+    color: var(--violet-color);
+    cursor: pointer;
+
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+       
 }
 
 .portfolio-buttom:hover,
@@ -395,8 +374,7 @@ font-weight: 700;
     width: 360px;
     height: 420px;
     gap: 24px;
-    
-    
+    margin-bottom: 48px ;   
 }
 .app-item:last-child {
     margin: 0px;
@@ -421,7 +399,7 @@ font-weight: 700;
 .app-paragraph {
     font-weight: 400;
         color: var(--gray-color);
-        margin-bottom: 32px;
+        
 }
 /**flexbox**/
 
