@@ -211,6 +211,13 @@ font-weight: 700;
 
 .tehnology-item {
     margin-right: 24px; 
+    width: 264px;
+    
+}
+.tehnology-item:last-child {
+    margin-right: 0;
+
+
 }
 
 /* section work*/
@@ -221,7 +228,8 @@ font-weight: 700;
     color: tomato;
 }
 
-.work-maintext, .about-maintext {
+.work-maintext,
+ .about-maintext {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -230,6 +238,7 @@ font-weight: 700;
     text-transform: capitalize;
     color: var(--maintext-color);
     margin-bottom: 72px;
+    
 }
 
 .work-list {
@@ -259,8 +268,12 @@ font-weight: 700;
 }
 
 .about-item {
-    margin-bottom: 32px;
+    margin-bottom: 120px;
     margin-right: 24px;
+    background: #FFFFFF;
+    text-align: center;
+    
+
 }
 
 .about-text {
@@ -280,6 +293,7 @@ font-weight: 700;
     background: #2E2F42;
     padding-top: 100px; 
     padding-bottom: 100px;
+    margin-top: 120px;
 }
 
 .logo-footer-first, .logo-footer-second {
@@ -309,7 +323,7 @@ font-weight: 700;
 .portfolio-hero {}
 
 .portfolio-navigation {
-    padding-top: 96px;
+    margin-top: 96px;
     margin-bottom: 72px;
 }
 
@@ -347,8 +361,7 @@ font-weight: 700;
     padding-left: 24px;
 
     border: 1px solid #E7E9FC;
-    border-radius: 4px;
-       
+    border-radius: 4px;    
 }
 
 .portfolio-buttom:hover,
@@ -359,11 +372,7 @@ font-weight: 700;
     color: var(--gray-color);
 }
 
-
 /* Section portfolio aalication*/
-
-.application {}
-
 .app-list {
     display: flex;
     flex-wrap: wrap;
@@ -372,34 +381,35 @@ font-weight: 700;
 
 .app-item {
     width: 360px;
-    height: 420px;
-    gap: 24px;
-    margin-bottom: 48px ;   
+    margin-right: 24px;
+    margin-bottom: 48px ;
+    border: 1px solid;
+    border-color: #E7E9FC;
 }
-.app-item:last-child {
-    margin: 0px;
+.app-item:nth-child(3n) {
+    margin-right: 0;
 }
 
-.app-link {
-    
-}
+/*.app-link { 
+}*/
 
 .app-maintext {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         color: var(--maintext-color);
-        margin-bottom: 32px;
+        margin-bottom: 8px;
         padding-top: 32px;
-        padding-right: 54px;
-        padding-left: ;
+        
+        padding-left: 16px;
        
 }
 
 .app-paragraph {
     font-weight: 400;
-        color: var(--gray-color);
-        
+    color: var(--gray-color);
+    margin-bottom: 32px;
+    padding-left: 16px;
 }
 /**flexbox**/
 
