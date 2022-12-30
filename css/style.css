@@ -11,7 +11,6 @@ body{
     line-height: 1.5;
     font-size: 16px;
     background-color: #FFFFFF;
-
 }
 
 /*якщо є нормалайз 
@@ -48,30 +47,24 @@ ul {
  }
 
 .logo-first, .logo-second {
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.33; 
-        display: flex;
-        color:var(--violet-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33; 
+    display: flex;
+    color:var(--violet-color);
 }
 
-
 .logo-second {
-    color:var(--maintext-color);
-       
+    color:var(--maintext-color);  
 }
 
 .navigation-list { 
-     display: flex ;
-     margin-left: 76px;
-     margin-right: 332px;
-
+    display: flex ;
+    margin-left: 76px;
+    margin-right: 332px;
 }
-/*.navigation-list li {
-    
-}*/
 
 .navigation-item {
     margin-right: 40px;
@@ -85,13 +78,7 @@ ul {
     display: block;
     font-weight: 500;
     color:var(--maintext-color);
- 
 }
-
-/*.navigation-list  .navigation-link+.navigation-link {
-    display: flex;
-   
-}*/
 
 .navigation-link:hover,
 .navigation-link:focus {
@@ -125,19 +112,15 @@ ul {
 /* фокус для таба на интерактинвные элементы)*/
 /* Main */
 /* Section hero*/
-.hero {}
+/*.hero {}*/
 
 .hero-main{ 
     background: #2E2F42;
     text-align: center;
-    /*padding-top: 188px;
-    padding-right: 473px;
-    padding-bottom: 292px;
-    padding-left: 473px;*/
 }
 
 .hero-text {
-font-weight: 700;
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -148,8 +131,6 @@ font-weight: 700;
     padding-top:188px  ;
     padding-right: 317px;
     padding-left: 317px;
-    
-
 }
 
 .hero-buttom {
@@ -168,9 +149,7 @@ font-weight: 700;
     background-color: #4D5AE5;
     border-radius: 4px;
     border-color: #4D5AE5;
-    cursor: pointer;
-        
-      
+    cursor: pointer;   
 }
 
 .hero-buttom:hover,
@@ -197,7 +176,7 @@ font-weight: 700;
     margin-bottom: 8px;
 }
 .tehnology-text {
- margin-top: 120px ;
+     margin-top: 120px ;
 }
 
 .tehnology-paragraph {
@@ -211,15 +190,11 @@ font-weight: 700;
 
 .tehnology-item {
     margin-right: 24px; 
-    width: 264px;
-    
+    width: 264px; 
 }
 .tehnology-item:last-child {
     margin-right: 0;
-
-
 }
-
 /* section work*/
 
 .work {
@@ -238,7 +213,6 @@ font-weight: 700;
     text-transform: capitalize;
     color: var(--maintext-color);
     margin-bottom: 72px;
-    
 }
 
 .work-list {
@@ -250,7 +224,7 @@ font-weight: 700;
     margin-right: 24px ;
 }
 
-.work-link {}
+/*.work-link {}*/
 
 /*section our team - about*/
 
@@ -272,8 +246,6 @@ font-weight: 700;
     margin-right: 24px;
     background: #FFFFFF;
     text-align: center;
-    
-
 }
 
 .about-text {
@@ -320,7 +292,7 @@ font-weight: 700;
 /*--Page portoflio--*/
 /*  Section portfolio navigation*/
 
-.portfolio-hero {}
+/*.portfolio-hero {}*/
 
 .portfolio-navigation {
     margin-top: 96px;
@@ -334,16 +306,14 @@ font-weight: 700;
     align-items: center;
     text-align: center;  
     justify-content: center;  
-    
- 
 }
+
 .portfolio-navigation-item:last-child {
     margin-right: 0;
 }
 
 .portfolio-navigation-item {
     margin-right: 24px ;
-   
 }
 
 .portfolio-buttom {
@@ -376,7 +346,6 @@ font-weight: 700;
 .app-list {
     display: flex;
     flex-wrap: wrap;
-  
 }
 
 .app-item {
@@ -395,13 +364,12 @@ font-weight: 700;
 
 .app-maintext {
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        color: var(--maintext-color);
-        margin-bottom: 8px;
-        padding-top: 32px;
-        
-        padding-left: 16px;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--maintext-color);
+    margin-bottom: 8px;
+    padding-top: 32px;
+    padding-left: 16px;
        
 }
 
@@ -414,21 +382,16 @@ font-weight: 700;
 /**flexbox**/
 
  .container {
-   /* 
-    height: ;
-    
-    outline: 2px rgb(141, 20, 227);*/
-    margin-left: auto;
     width: 1158px;
-    margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    
+    margin-left: auto;
+    margin-right: auto;
  }
 
  .main-nav {
-     display: flex;
-     align-items: center;
-     justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }
