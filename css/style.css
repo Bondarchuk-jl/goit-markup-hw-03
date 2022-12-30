@@ -3,14 +3,15 @@
     --maintext-color: #2E2F42;
     --gray-color: #434455;
    --btn-navigation:#404BBF;
+   --main-color: #FFFFFF;
 }
 body{
-    color:#FFFFFF ;
+    color: var(--main-color) ;
     font-family: 'Roboto', sans-serif;     
     letter-spacing: 0.02em;
     line-height: 1.5;
     font-size: 16px;
-    background-color: #FFFFFF;
+    background-color: var(--main-color) ;
 }
 
 /*якщо є нормалайз 
@@ -20,6 +21,12 @@ body{
 зірочку не пишемо*/
 p, h1, h2, h3, h4 {
     margin:0;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+
 }
 /*скинути крапки у списках ліст*/
 .list {
@@ -128,7 +135,7 @@ ul {
     line-height: 1.07;
     text-align: center;
     justify-content: center;
-    color: #FFFFFF;
+    color: var(--main-color);
     margin-top: 0;
     margin-bottom: 48px;
     padding-right: 317px;
@@ -140,7 +147,7 @@ ul {
 .hero-buttom {
     font-family: inherit;
     font-weight: 500;
-    color: #FFFFFF;
+    color: var(--main-color);
     letter-spacing: 0.04em;
     display: flex;
     margin: 0 auto;
@@ -202,7 +209,7 @@ ul {
 .work {
     padding-top: 120px;
     margin-bottom: 120px;
-    color: tomato;
+    
 }
 
 .work-maintext,
@@ -223,7 +230,7 @@ ul {
 }
 
 .work-item {
-    margin-bottom: 120px;
+    
 }
 
 /*.work-link {}*/
@@ -246,7 +253,7 @@ ul {
 
 .about-item {
     margin-right: 24px;
-    background: #FFFFFF;
+    background:var(--main-color);
     text-align: center;
     border-radius: 0px 0px 4px 4px;
 }
@@ -318,7 +325,7 @@ ul {
 .portfolio-buttom {
     display: flex;
     font-weight: 500;
-    background-color: #E7E9FC;
+    background-color: #F4F4FD;
     align-items: center; 
     letter-spacing: 0.04em;
     color: var(--violet-color);
@@ -329,13 +336,15 @@ ul {
     padding-bottom: 12px;
     padding-left: 24px;
 
-    border: 1px solid #E7E9FC;
+    border: 1px solid ;
+    border-color:#E7E9FC;
     border-radius: 4px;    
 }
 
 .portfolio-buttom:hover,
 .portfolio-buttom:focus{
-   color: black; 
+    background-color: var(--btn-navigation); 
+    color: var(--main-color);
 }
 .portfolio-buttom:active {
     color: var(--gray-color);
