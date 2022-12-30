@@ -117,6 +117,9 @@ ul {
 .hero-main{ 
     background: #2E2F42;
     text-align: center;
+    padding-top:188px  ;
+    padding-bottom: 188px; 
+
 }
 
 .hero-text {
@@ -128,9 +131,10 @@ ul {
     color: #FFFFFF;
     margin-top: 0;
     margin-bottom: 48px;
-    padding-top:188px  ;
     padding-right: 317px;
     padding-left: 317px;
+    
+   
 }
 
 .hero-buttom {
@@ -139,13 +143,12 @@ ul {
     color: #FFFFFF;
     letter-spacing: 0.04em;
     display: flex;
-    display: inline-block;
-    width: 169px;
-    height: 56px;
-    margin-bottom: 188px;
-    Padding: 16px, 32px, 16px, 32px;
-    align-items: center;
+    margin: 0 auto;
     
+    padding: 16px 32px;
+    align-items: center;
+    justify-content: center;
+
     background-color: #4D5AE5;
     border-radius: 4px;
     border-color: #4D5AE5;
@@ -161,7 +164,6 @@ ul {
 
 .tehnology {
     padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .tehhology-maintext {
@@ -176,7 +178,7 @@ ul {
     margin-bottom: 8px;
 }
 .tehnology-text {
-     margin-top: 120px ;
+     
 }
 
 .tehnology-paragraph {
@@ -217,11 +219,11 @@ ul {
 
 .work-list {
     display: flex;
+    gap:24px;
 }
 
 .work-item {
     margin-bottom: 120px;
-    margin-right: 24px ;
 }
 
 /*.work-link {}*/
@@ -230,6 +232,7 @@ ul {
 
 .about {
     background: #F4F4FD;
+    padding-bottom: 120px;
 }
 
 .about-maintext {
@@ -242,7 +245,6 @@ ul {
 }
 
 .about-item {
-    margin-bottom: 120px;
     margin-right: 24px;
     background: #FFFFFF;
     text-align: center;
@@ -250,14 +252,12 @@ ul {
 }
 
 .about-text {
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
 .about-paragraph, .footer-paragraph {
     font-weight: 400;
     color: var(--gray-color);
-    margin-bottom: 32px;
 }
 
 /* Footer */
@@ -266,7 +266,6 @@ ul {
     background: #2E2F42;
     padding-top: 100px; 
     padding-bottom: 100px;
-   
 }
 
 .logo-footer-first, .logo-footer-second {
@@ -296,14 +295,13 @@ ul {
 /*.portfolio-hero {}*/
 
 .portfolio-navigation {
-    margin-top: 96px;
-    margin-bottom: 72px;
+    padding-bottom: 72px;
+    padding-top: 92px;
 }
 
 .portfolio-navigation-list {
     display: flex;
     margin-bottom: 72px;
-    margin-top: 92px;
     align-items: center;
     text-align: center;  
     justify-content: center;  
@@ -348,19 +346,23 @@ ul {
     display: flex;
     flex-wrap: wrap;
 }
-
+.shadow { 
+    border: 1px solid;
+    border-color: #E7E9FC;
+    border-top-color: transparent;
+}
 .app-item {
     width: 360px;
     margin-right: 24px;
     margin-bottom: 48px ;
-    border: 1px solid;
-    border-color: #E7E9FC;
+   
+    
 }
 .app-item:nth-child(3n) {
     margin-right: 0;
 }
-.app-item:ntn-child(7,8,9) {
-    margin-bottom:120px
+/*.app-item:ntn-child(7,8,9) {
+    padding-bottom:120px;
 }
 
 /*.app-link { 
@@ -390,12 +392,14 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    margin-left: auto;
-    margin-right: auto;
  }
 
  .main-nav {
     display: flex;
     align-items: center;
     justify-content: center;
+ }
+ .card { 
+    padding-bottom: 32px ;
+    padding-top: 32px; 
  }
