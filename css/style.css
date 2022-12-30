@@ -265,7 +265,7 @@ ul {
     background: #2E2F42;
     padding-top: 100px; 
     padding-bottom: 100px;
-    margin-top: 120px;
+   
 }
 
 .logo-footer-first, .logo-footer-second {
@@ -357,6 +357,9 @@ ul {
 }
 .app-item:nth-child(3n) {
     margin-right: 0;
+}
+.app-item:ntn-child(7,8,9) {
+    margin-bottom:120px
 }
 
 /*.app-link { 
