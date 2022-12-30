@@ -246,6 +246,7 @@ ul {
     margin-right: 24px;
     background: #FFFFFF;
     text-align: center;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .about-text {
